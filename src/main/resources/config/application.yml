@@ -1,0 +1,39 @@
+server:
+  compression:
+    enabled: true
+    mime-types: "application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css"
+    min-response-size: 10240
+  port: 8081
+spring:
+  profiles:
+    active: prod
+  application:
+    name: star-wars
+  data:
+    mongodb:
+      database: star-wars-planet
+#      host: localhost
+      host: mongo-database
+      port: 27017
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    org.hibernate: ERROR
+
+log4j:
+  category:
+    org:
+    springframework:
+    data:
+      mongodb: DEBUG
+  appender:
+    stdout:
+      layout:
+        ConversionPattern: "%d{ABSOLUTE} %5p %40.40c:%4L - %m%n"
+
+starwars:
+  mongoHost: mongo-database
+#  mongoHost: "localhost"
+  swApiHost: "https://swapi.co"

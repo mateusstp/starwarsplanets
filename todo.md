@@ -1,0 +1,3 @@
+- criar test para todas atividades
+- implemetentar regra de salvar
+- implementar regra para preparar ambiente
