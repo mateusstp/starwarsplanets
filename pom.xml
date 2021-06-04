@@ -27,7 +27,7 @@
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx4g</argLine>
         <com.google.code.gson>2.8.5</com.google.code.gson>
         <com.google.guava.version>20.0</com.google.guava.version>
-        <org.apache.version>4.5.6</org.apache.version>
+        <org.apache.version>4.5.13</org.apache.version>
         <junit.version>4.12</junit.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
