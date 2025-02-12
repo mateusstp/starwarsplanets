@@ -135,7 +135,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.2.20.RELEASE</version>
+            <version>6.1.14</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
@@ -150,7 +150,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.2.20.RELEASE</version>
+            <version>6.1.14</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
